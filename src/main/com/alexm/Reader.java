@@ -22,7 +22,6 @@ public class Reader implements IReader {
         } catch (IOException ex) {
             throw new RuntimeException("Reading file problem");
         }
-
         return allLines;
     }
 
