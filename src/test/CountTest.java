@@ -14,6 +14,6 @@ public class CountTest {
     public void count(){
        assertEquals(
            new Counter().count(new Reader().readFile("test.txt")),
-           17);
+           19);
     }
 }
