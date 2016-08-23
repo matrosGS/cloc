@@ -1,6 +1,7 @@
 package com.alexm;
 
 import java.io.*;
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -24,7 +25,7 @@ public class Controller implements IController {
             throw new RuntimeException("There is no such file or folder");
         }
 
-        return null;
+        return Collections.emptyList();
     }
 
     @Override
